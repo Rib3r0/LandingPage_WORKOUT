@@ -1,0 +1,154 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    max-width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+}
+header{
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.125rem;
+}
+
+.nav{
+    display: flex;
+    gap: 50px;
+}
+
+.nav_sections{
+    font-weight: 400;
+    font-size: 0.75rem;
+    filter: opacity(67%);
+}
+
+main{
+    width: 100%;
+    padding: 0px 120px 10px 120px;
+    display: flex;
+    flex-direction: column;
+}
+section{
+    width: fit-content;
+    height: 100%;
+    padding-bottom: 70px;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+}
+.home_left{
+    flex: 1;
+}
+
+.home_new{
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 5px 15px 5px 5px;
+    border-radius: 200px;
+    gap: 15px;
+}
+
+.home_new_new{
+    background-color: #25AB75;
+    border-radius: 200px;
+    padding: 4px 10px 4px 10px;
+    font-size: 0.625rem;
+}
+.home_new_text{
+    font-size: 0.75rem;
+}
+
+.home_title{
+    font-weight: 600;
+    font-size: clamp(1.5rem, 15vw, 10.5rem);
+    line-height: 9rem;
+    letter-spacing: -4px;
+}
+.home_description{
+    filter: opacity(50%);
+    width: 80%;
+    padding: 10px;
+}
+
+.home_buttons{
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+}
+
+.home_buttons_button{
+    padding: 24px;
+    min-width: 200px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-style: none;
+    font-size: 1.125rem;
+    font-weight: 600;
+    transition: ease-out 0.5s;
+}
+.home_buttons_button:hover{
+    background-color: #25AB75;
+    cursor: pointer;
+    transition: ease-in 0.5s;
+}
+
+.home_middle{
+    width: 20vw;
+}
+
+.home_middle img{
+    height: clamp(100px, 45vw, 600px);
+    position: absolute;
+    transform: translateX(-100px) translateY(-260px);
+}
+
+.home_right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.home_right_card{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px 30px;
+    border-radius: 20px;
+}
+
+.home_right_card_info1{
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: #FFE642;
+}
+.home_right_card_info2{
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: #FB1351;
+}
+
+.home_right_card_sub{
+    font-size: 0.813rem;
+}
+
+
+
+
+footer{
+    width: 100%;
+}
